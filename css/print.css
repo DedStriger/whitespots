@@ -121,10 +121,16 @@ font-size: 12px;
 
 
 	.container{
-		max-width: 538px;
 		margin-right: 20px;
 		margin-left: 37px;
+		max-width: 538px;
+
 	}
+
+/*	header .container{
+		padding-right: 40px;	
+		padding-left: 52px;	
+	}*/
 
 	.important-cont, .main-cont{
 		border: 1.5px solid rgba(227, 73, 73, 0.5);
@@ -168,9 +174,12 @@ a:not(.btn){
 }
 
 .container{
-	min-width: 538px !important;
+	min-width: calc(100% - 80px) !important;
 	margin-right: 40px;
 }
+
+
+
 
 
 	@page{
