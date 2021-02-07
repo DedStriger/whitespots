@@ -34,7 +34,7 @@
 			<div class="row align-items-center main-row">
 				<div class="col-fluid p-md-0 px-3">
 					<h1 class="page-title d-md-block d-flex align-items-end justify-content-between">Requirements 
-						<a href="#" class="message-title d-md-none d-block"> <!--поменять d-none на d-block для мобилно версии-->
+						<a href="#" class="message-title d-md-none d-none"> <!--поменять d-none на d-block для мобилной версии (если выполнен комментарий на строке 59-->
 							<img src="img/load.svg" alt="load" class="link-img">
 							Скачать PDF
 						</a>
@@ -42,8 +42,8 @@
 				</div>
 				<div class="col-fluid p-md-0 px-3">
 					<!-- для видимсти убрать d-none добавить d-none остальным div в блоке-->
-					<button type='button' class="btn d-flex export cta py-md-3 px-md-4">Export</button>
-					<div class="wait d-none align-items-start"> <!-- здесь вместо d-none d-flex -->
+					<button type='button' class="btn d-none export cta py-md-3 px-md-4">Export</button>
+					<div class="wait d-none align-items-start"> <!-- здесь вместо d-none d-flex  -->
 						<img src="img/wait.svg" alt="wait" class="wait-img">
 						<div>
 							<div class="message-title">In progress</div>
@@ -56,7 +56,7 @@
 							Скачать PDF
 						</a>
 						<button type="button" class="btn btn-outline-red pt-1 pb-1 disabled-message">Экспортировать снова</button>
-					</div> <!-- здесь вместо d-none d-flex -->
+					</div> <!-- здесь вместо d-none d-flex и посмотреть комментарий на строке 37-->
 					<div class="alert-cont d-none align-items-start">
 						<img src="img/alert.svg" alt="alert" class="alert-img">
 						<div>
